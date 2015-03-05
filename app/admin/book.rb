@@ -1,4 +1,5 @@
 ActiveAdmin.register Book do
+  permit_params :title, :author
 
 
   # See permitted parameters documentation:
